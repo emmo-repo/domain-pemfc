@@ -1,9 +1,9 @@
 [![FOOPS Score](https://img.shields.io/badge/FOOPS%20Score-79.0%25-yellow)](https://foops.linkeddata.es/FAIR_validator.html)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![GitHub release](https://img.shields.io/github/v/release/emmo-repo/emmo/domain-sofc)](https://emmo-repo.github.io/)
 
 <!--
 ![CI tests](https://github.com/emmo-repo/EMMO/domain-pemfc/workflows/CI%20tests/badge.svg)
+[![GitHub release](https://img.shields.io/github/v/release/emmo-repo/emmo/domain-pemfc)](https://emmo-repo.github.io/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5730500.svg)](https://doi.org/10.5281/zenodo.5730500)
 ![docs](https://github.com/emmo-repo/domain-pemfc/actions/workflows/docs-build-and-deploy.yml/badge.svg)
 [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
