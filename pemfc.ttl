@@ -3,11 +3,15 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix echo: <https://w3id.org/emmo/domain/electrochemistry#> .
 @prefix emmo: <https://w3id.org/emmo#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix chems: <https://w3id.org/emmo/domain/chemical-substance#> .
+@prefix schema: <https://schema.org/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @base <https://w3id.org/emmo/domain/pemfc#> .
 
@@ -17,8 +21,8 @@
     dcterms:abstract "An EMMO-based domain ontology for proton-exchange membrane fuel cells."@en ;
     #dcterms:bibliographicCitation "https://doi.org/10.5281/zenodo.7693664" ;
     dcterms:created "2025-01-07"^^xsd:date ;
-    dcterms:creator emmo:JesperFriis , emmo:FrancescaBleken , :PatriceTochon ;
-    dcterms:contributor emmo:FrancescaBleken , emmo:GerhardGoldbeck ;
+    dcterms:creator emmo:JesperFriis , emmo:FrancescaBleken ;
+    dcterms:contributor :StephaneCotte ;
     dcterms:issued "2025-08-07"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
     dcterms:modified "2025-08-07"^^xsd:date ;
@@ -33,19 +37,6 @@
     owl:versionInfo "0.0.1" .
 
 
-
-<https://w3id.org/emmo/domain/pemfc> rdf:type owl:Ontology ;
-                                      owl:versionIRI <https://w3id.org/emmo/domain/pemfc/0.0.1> ;
-                                      owl:imports <https://w3id.org/emmo/domain/pemfc/0.0.1/dependencies> ;
-                                      dcterms:contributor "MatCHMaker"@en ;
-                                      dcterms:creator "Francesca Bleken (SINTEF)"@en ,
-                                                      "Jesper Friis (SINTEF)"@en ,
-                                                      "Patrice Tochon (Genvia)"@en ;
-                                      dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
-                                      dcterms:title "Proton-exchange membrane fuel cell domain ontology"@en ;
-                                      <http://purl.org/vocab/vann/preferredNamespacePrefix> "pemfc" ;
-                                      <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/domain/pemfc" ;
-                                      owl:versionInfo "0.0.1"@en .
 
 #################################################################
 #    Classes
