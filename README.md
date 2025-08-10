@@ -16,12 +16,11 @@ The Proton-exchange membrane fuel cell (PEMFC) domain ontology is a domain ontol
 
 A PEMFC works by splitting hydrogen into protons and electrons, generating an electric current and combining the protons with oxygen to produce water.
 This is illustrated in the figure below.
+See the [Wikipedia article on PEMFCs][Wikipedia] for more details.
 
 ![Proton Exchange Fuel Cell Diagram](docs/Proton_Exchange_Fuel_Cell_Diagram.png)
-Proton Exchange Fuel Cell Diagram. Source: Wikipedia (published under the [CC0] license).
 
-See [Wikipedia] for more details.
-
+Proton Exchange Fuel Cell Diagram. Source: [Wikipedia] (published under the [CC0] license).
 
 
 ### Imported ontologies
