@@ -18,7 +18,7 @@ A PEMFC works by splitting hydrogen into protons and electrons, generating an el
 This is illustrated in the figure below.
 See the [Wikipedia article on PEMFCs][Wikipedia] for more details.
 
-![Proton Exchange Fuel Cell Diagram](docs/Proton_Exchange_Fuel_Cell_Diagram.png)
+![Proton Exchange Fuel Cell Diagram](docs/Proton_Exchange_Fuel_Cell_Diagram-small.png)
 
 Proton Exchange Fuel Cell Diagram. Source: [Wikipedia] (published under the [CC0] license).
 
