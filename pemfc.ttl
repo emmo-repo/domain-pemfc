@@ -16,31 +16,104 @@
 @base <https://w3id.org/emmo/domain/pemfc#> .
 
 <https://w3id.org/emmo/domain/pemfc> rdf:type owl:Ontology ;
-    owl:versionIRI <https://w3id.org/emmo/domain/pemfc/0.0.1> ;
-    owl:imports <https://w3id.org/emmo/domain/pemfc/0.0.1/contributors> ;
-    dcterms:abstract "An EMMO-based domain ontology for proton-exchange membrane fuel cells."@en ;
-    #dcterms:bibliographicCitation "https://doi.org/10.5281/zenodo.7693664" ;
-    dcterms:created "2025-01-07"^^xsd:date ;
-    dcterms:creator emmo:JesperFriis , emmo:FrancescaBleken ;
-    dcterms:contributor :StephaneCotte ;
-    dcterms:issued "2025-08-07"^^xsd:date ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
-    dcterms:mediator emmo:EMMC_ASBL ;
-    dcterms:modified "2025-08-07"^^xsd:date ;
-    dcterms:publisher <https://he-matchmaker.eu> ;
-    dcterms:title "Proton-exchange membrane fuel cell domain ontology"@en ;
-    #bibo:doi "10.5281/zenodo.7693664" ;
-    bibo:status "unstable" ;
-    vann:preferredNamespacePrefix "pemfc" ;
-    vann:preferredNamespaceUri "https://w3id.org/emmo/domain/pemfc" ;
-    #owl:backwardCompatibleWith "0.0.1" ;
-    #owl:priorVersion "0.0.1" ;
-    owl:versionInfo "0.0.1" .
+                                      owl:versionIRI <https://w3id.org/emmo/domain/pemfc/0.0.1> ;
+                                      owl:imports <https://w3id.org/emmo/domain/pemfc/0.0.1/contributors> ;
+                                      dcterms:abstract "An EMMO-based domain ontology for proton-exchange membrane fuel cells."@en ;
+                                      dcterms:contributor :StephaneCotte ;
+                                      dcterms:created "2025-01-07"^^xsd:date ;
+                                      dcterms:creator emmo:FrancescaBleken ,
+                                                      emmo:JesperFriis ;
+                                      dcterms:issued "2025-08-07"^^xsd:date ;
+                                      dcterms:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+                                      dcterms:mediator emmo:EMMC_ASBL ;
+                                      dcterms:modified "2025-08-07"^^xsd:date ;
+                                      dcterms:publisher <https://he-matchmaker.eu> ;
+                                      dcterms:title "Proton-exchange membrane fuel cell domain ontology"@en ;
+                                      bibo:status "unstable" ;
+                                      vann:preferredNamespacePrefix "pemfc" ;
+                                      vann:preferredNamespaceUri "https://w3id.org/emmo/domain/pemfc" ;
+                                      owl:versionInfo "0.0.1" .
 
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/mediator
+dcterms:mediator rdf:type owl:AnnotationProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
+
+###  https://w3id.org/emmo/domain/pemfc#EMMO_abe17c61_6a3d_4ec6_b4db_450b5654dbc6
+:EMMO_abe17c61_6a3d_4ec6_b4db_450b5654dbc6 rdf:type owl:Class ;
+                                           rdfs:subClassOf echo:electrochemistry_bd33779c_6f40_4354_ab5d_f6c17396414d ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+                                                             owl:someValuesFrom :EMMO_f2132f62_d22d_481b_bbb6_4c4c87c47cfd
+                                                           ] ;
+                                           skos:prefLabel "ProtonExchangeMembraneFuelCell"@en ;
+                                           emmo:EMMO_157fdf31_6387_42be_8e72_10530519214a "https://raw.githubusercontent.com/emmo-repo/domain-pemfc/refs/heads/master/docs/Proton_Exchange_Fuel_Cell_Diagram.png" ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A fuel cell that splits hydrogen into protons and electrons, generating an electric current and combining the protons with oxygen to produce water."@en ;
+                                           emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell"^^xsd:anyURI .
+
+
+###  https://w3id.org/emmo/domain/pemfc#EMMO_b24401b7_35e4_40be_8c8b_36ee8869cc1a
+:EMMO_b24401b7_35e4_40be_8c8b_36ee8869cc1a rdf:type owl:Class ;
+                                           rdfs:subClassOf echo:electrochemistry_a0580fa9_5073_44af_b33e_7adbc83892d0 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                                             owl:someValuesFrom emmo:EMMO_5a4790e5-b11b-5a0c-80e4-81515c27a560
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                                             owl:someValuesFrom emmo:EMMO_730f2e31_ca78_410f_a5e1_4043217a41ab
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                                             owl:someValuesFrom emmo:EMMO_8f87e700_99a8_4427_8ffb_e493de05c217
+                                                           ] ;
+                                           skos:prefLabel "PEMAnodicReaction"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Anodic reaction of a PEM fuel cell. Splits hydrogen into protons and electrons: 
+
+    H2 --> 2H+ + 2e-"""@en .
+
+
+###  https://w3id.org/emmo/domain/pemfc#EMMO_e072436a_2656_4e03_b600_a7f41c486339
+:EMMO_e072436a_2656_4e03_b600_a7f41c486339 rdf:type owl:Class ;
+                                           rdfs:subClassOf echo:electrochemistry_f4a1323a_ce2b_4c1a_b89d_c80170110ed6 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                                             owl:someValuesFrom emmo:EMMO_730f2e31_ca78_410f_a5e1_4043217a41ab
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                                             owl:someValuesFrom emmo:EMMO_8f87e700_99a8_4427_8ffb_e493de05c217
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                                             owl:someValuesFrom chems:substance_28df7242_f3a7_44e5_bd60_fb16796539c1
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                                             owl:someValuesFrom echo:electrochemistry_a7b05629_80d7_402b_be1a_69933d24c4cb
+                                                           ] ;
+                                           skos:prefLabel "PEMCathodicReaction"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Cathodic reaction of a PEM fuel cell. Creates water by reacting oxygen with protons and electrons
+
+    1/2 O2 + 2H+ + 2e- --> H2O"""@en .
+
+
+###  https://w3id.org/emmo/domain/pemfc#EMMO_f2132f62_d22d_481b_bbb6_4c4c87c47cfd
+:EMMO_f2132f62_d22d_481b_bbb6_4c4c87c47cfd rdf:type owl:Class ;
+                                           rdfs:subClassOf echo:electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0 ;
+                                           skos:altLabel "PolymerElectrolyteMembrane"@en ;
+                                           skos:prefLabel "ProtonExchangeMembrane"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A semipermeable membrane designed to conduct protons while acting as an electronic insulator and reactant barrier, e.g. to oxygen and hydrogen gas."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A proton-exchange membrane (PEM) is generally made from ionomers."@en ,
+                                                                                          "Also known as polymer-electrolyte membrane."@en ;
+                                           emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Proton-exchange_membrane"^^xsd:anyURI .
+
 
 ###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
