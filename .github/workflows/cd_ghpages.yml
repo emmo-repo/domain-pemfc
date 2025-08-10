@@ -33,8 +33,6 @@ jobs:
     - name: Create dependencies, squashed and inferred ontologies
       run: |
         mkdir build
-        echo "*** pwd: $PWD"
-        ls
         cp README.md build/.
         ontoconvert \
             -saw \
