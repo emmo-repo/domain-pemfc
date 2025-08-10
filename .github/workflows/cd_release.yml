@@ -5,7 +5,7 @@ on:
     types: [published]
 
 env:
-  ONTOLOGY_NAME: manufacturing
+  ONTOLOGY_NAME: pemfc
   TAG: ${{ github.ref_name }}
 
 permissions:

@@ -19,11 +19,9 @@ The Proton-exchange membrane fuel cell (PEMFC) domain ontology is a domain ontol
 ### Imported ontologies
 Version dependencies on imported ontologies:
 
-| Version | [EMMO] | [ECHO]      | [CHEMS]     | [CHAMEO] |
-|---------|--------|-------------|-------------|----------|
-| 0.0.1   | 1.0.0  | 0.29.0-beta | 0.12.1-beta |          |
-| 0.0.2   | 1.0.0  | 0.30.0-beta | 0.12.2-beta | 1.0.0    |
-
+| Version | [EMMO]      | [ECHO]      | [CHEMS]     | [Battery]   | [CHAMEO] |
+|---------|-------------|-------------|-------------|-------------|----------|
+| 0.0.1   | 1.0.0       | 0.30.0-beta | 0.12.2-beta | 0.18.5-beta | -        |
 
 
 ## License

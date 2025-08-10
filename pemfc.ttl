@@ -25,6 +25,7 @@
     dcterms:contributor :StephaneCotte ;
     dcterms:issued "2025-08-07"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+    dcterms:mediator emmo:EMMC_ASBL ;
     dcterms:modified "2025-08-07"^^xsd:date ;
     dcterms:publisher <https://he-matchmaker.eu> ;
     dcterms:title "Proton-exchange membrane fuel cell domain ontology"@en ;
