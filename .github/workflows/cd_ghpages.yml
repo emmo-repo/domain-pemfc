@@ -28,11 +28,17 @@ jobs:
     - name: Install EMMOntoPy
       run: |
         pip install --upgrade pip
-        pip install EMMOntoPy
+        pip install git+https://github.com/emmo-repo/EMMOntoPy.git@master
 
-    - name: Create squashed and inferred ontology
+    - name: Create dependencies, squashed and inferred ontologies
       run: |
         mkdir build
+        cp README.md build/.
+        ontoconvert \
+            -saw \
+            --namespace="emmo:https://w3id.org/emmo#" \
+            ${ONTOLOGY_NAME}-dependencies.ttl \
+            build/${ONTOLOGY_NAME}-dependencies.ttl
         ontoconvert \
             -sawe \
             --base-iri="${ONTOLOGY_IRI}#" \
@@ -52,3 +58,5 @@ jobs:
       with:
         folder: build
         branch: gh-pages
+        clean: false
+        single-commit: true
