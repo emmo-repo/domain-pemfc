@@ -46,6 +46,7 @@ This work has been supported by the following projects:
 [EMMO]: https://github.com/emmo-repo/EMMO
 [ECHO]: https://github.com/emmo-repo/domain-electrochemistry
 [CHEMS]: https://github.com/emmo-repo/domain-chemical-substance
+[Battery]: https://github.com/emmo-repo/domain-battery
 [CHAMEO]: https://github.com/emmo-repo/domain-characterisation-methodology
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/deed.en
 [Wikipedia]: http://creativecommons.org/publicdomain/zero/1.0/deed.en
