@@ -1,11 +1,10 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15767822.svg)](https://doi.org/10.5281/zenodo.15767822)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![CI tests](https://github.com/emmo-repo/domain-pemfc/actions/workflows/ci_tests.yml/badge.svg)](https://github.com/emmo-repo/domain-pemfc/actions/workflows/ci_tests.yml)
+[![GitHub release](https://img.shields.io/github/v/release/emmo-repo/domain-pemfc)](https://emmo-repo.github.io/)
 
 <!--
-![CI tests](https://github.com/emmo-repo/EMMO/domain-pemfc/workflows/CI%20tests/badge.svg)
 [![FOOPS Score](https://img.shields.io/badge/FOOPS%20Score-79.0%25-yellow)](https://foops.linkeddata.es/FAIR_validator.html)
-
-[![GitHub release](https://img.shields.io/github/v/release/emmo-repo/emmo/domain-pemfc)](https://emmo-repo.github.io/)
 ![docs](https://github.com/emmo-repo/domain-pemfc/actions/workflows/docs-build-and-deploy.yml/badge.svg)
 [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 -->
@@ -26,9 +25,11 @@ Proton Exchange Fuel Cell Diagram. Source: [Wikipedia] (published under the [CC0
 ### Imported ontologies
 Version dependencies on imported ontologies:
 
-| Version | [EMMO]      | [ECHO]      | [CHEMS]     | [Battery]   | [CHAMEO] |
-|---------|-------------|-------------|-------------|-------------|----------|
-| 0.0.1   | 1.0.0       | 0.30.0-beta | 0.12.2-beta | 0.18.5-beta | -        |
+| Version | [EMMO] | [ECHO]      | [CHEMS]     | [Battery]   | [SOFC] | [SOFC] |
+|---------|--------|-------------|-------------|-------------|--------|--------|
+| 0.0.1   | 1.0.0  | 0.30.0-beta | 0.12.2-beta | 0.18.5-beta | 0.0.1  | 0.0.1  |
+| 0.6.0   | 1.0.0  | 0.30.0-beta | 0.12.2-beta | 0.18.5-beta | 0.5.0  | 0.5.0  |
+
 
 
 ## License
@@ -49,4 +50,4 @@ This work has been supported by the following projects:
 [Battery]: https://github.com/emmo-repo/domain-battery
 [CHAMEO]: https://github.com/emmo-repo/domain-characterisation-methodology
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-[Wikipedia]: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+[Wikipedia]: https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell
