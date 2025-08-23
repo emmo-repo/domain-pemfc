@@ -1,3 +1,5 @@
+# Proton-exchange membrane fuel cell domain ontology
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15767822.svg)](https://doi.org/10.5281/zenodo.15767822)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![CI tests](https://github.com/emmo-repo/domain-pemfc/actions/workflows/ci_tests.yml/badge.svg)](https://github.com/emmo-repo/domain-pemfc/actions/workflows/ci_tests.yml)
@@ -9,8 +11,6 @@
 [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 -->
 
-
-# Proton-exchange membrane fuel cell domain ontology
 The Proton-exchange membrane fuel cell (PEMFC) domain ontology is a domain ontology within the ontological framework of the [Elementary Multiperspective Materials Ontology (EMMO)][EMMO].
 
 A PEMFC works by splitting hydrogen into protons and electrons, generating an electric current and combining the protons with oxygen to produce water.
@@ -49,5 +49,7 @@ This work has been supported by the following projects:
 [CHEMS]: https://github.com/emmo-repo/domain-chemical-substance
 [Battery]: https://github.com/emmo-repo/domain-battery
 [CHAMEO]: https://github.com/emmo-repo/domain-characterisation-methodology
+[SOFC]: https://github.com/emmo-repo/domain-sofc
+[SOEC]: https://github.com/emmo-repo/domain-sofc
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/deed.en
 [Wikipedia]: https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell
