@@ -16,8 +16,8 @@
 @base <https://w3id.org/emmo/domain/pemfc#> .
 
 <https://w3id.org/emmo/domain/pemfc> rdf:type owl:Ontology ;
-                                      owl:versionIRI <https://w3id.org/emmo/domain/pemfc/0.4.0> ;
-                                      owl:imports <https://w3id.org/emmo/domain/pemfc/0.4.0/contributors> ;
+                                      owl:versionIRI <https://w3id.org/emmo/domain/pemfc/0.4.1> ;
+                                      owl:imports <https://w3id.org/emmo/domain/pemfc/0.4.1/contributors> ;
                                       dcterms:abstract "An EMMO-based domain ontology for proton-exchange membrane fuel cells."@en ;
                                       dcterms:contributor :StephaneCotte ;
                                       dcterms:created "2025-01-07"^^xsd:date ;
@@ -32,7 +32,7 @@
                                       bibo:status "unstable" ;
                                       vann:preferredNamespacePrefix "pemfc" ;
                                       vann:preferredNamespaceUri "https://w3id.org/emmo/domain/pemfc" ;
-                                      owl:versionInfo "0.4.0" .
+                                      owl:versionInfo "0.4.1" .
 
 #################################################################
 #    Annotation properties

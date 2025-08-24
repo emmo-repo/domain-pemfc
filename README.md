@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15767822.svg)](https://doi.org/10.5281/zenodo.15767822)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![CI tests](https://github.com/emmo-repo/domain-pemfc/actions/workflows/ci_tests.yml/badge.svg)](https://github.com/emmo-repo/domain-pemfc/actions/workflows/ci_tests.yml)
-[![GitHub release](https://img.shields.io/github/v/release/emmo-repo/domain-pemfc)](https://emmo-repo.github.io/)
+[![GitHub release](https://img.shields.io/github/v/release/emmo-repo/domain-pemfc)](https://emmo-repo.github.io/domain-pemfc)
 
 <!--
 [![FOOPS Score](https://img.shields.io/badge/FOOPS%20Score-79.0%25-yellow)](https://foops.linkeddata.es/FAIR_validator.html)
@@ -29,6 +29,7 @@ Version dependencies on imported ontologies:
 |---------|--------|-------------|-------------|-------------|--------|--------|
 | 0.0.1   | 1.0.0  | 0.30.0-beta | 0.12.2-beta | 0.18.5-beta | 0.0.1  | 0.0.1  |
 | 0.4.0   | 1.0.0  | 0.30.0-beta | 0.12.2-beta | 0.18.5-beta | 0.6.2  | 0.6.2  |
+| 0.4.1   | 1.0.0  | 0.30.0-beta | 0.12.2-beta | 0.18.5-beta | 0.6.2  | 0.6.2  |
 
 
 
