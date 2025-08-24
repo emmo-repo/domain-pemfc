@@ -46,6 +46,10 @@ dcterms:mediator rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
+###  https://w3id.org/emmo/domain/chemical-substance#substance_c42ceab7_0d11_44ef_af71_be32524b1078
+chems:substance_c42ceab7_0d11_44ef_af71_be32524b1078 rdf:type owl:Class .
+
+
 ###  https://w3id.org/emmo/domain/pemfc#EMMO_01f7c538_3de2_4028_92c1_8cc93832dd76
 :EMMO_01f7c538_3de2_4028_92c1_8cc93832dd76 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ,
@@ -115,8 +119,8 @@ dcterms:mediator rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/emmo/domain/pemfc#EMMO_9d51634d_db42_4697_8dda_58e74a8df826
 :EMMO_9d51634d_db42_4697_8dda_58e74a8df826 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
-                                           skos:altLabel "A plate that is grooved with gas flow channels."@en ;
                                            skos:prefLabel "BipolarPlate"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A plate that is grooved with gas flow channels."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Bipolar plates are used distribute the fuel and oxidant gases to the electrodes in fuel cells. They may also act as electrical current collectors, completing the electrical circuit."@en .
 
 
