@@ -46,10 +46,6 @@ dcterms:mediator rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
-###  https://w3id.org/emmo/domain/chemical-substance#substance_c42ceab7_0d11_44ef_af71_be32524b1078
-chems:substance_c42ceab7_0d11_44ef_af71_be32524b1078 rdf:type owl:Class .
-
-
 ###  https://w3id.org/emmo/domain/pemfc#EMMO_01f7c538_3de2_4028_92c1_8cc93832dd76
 :EMMO_01f7c538_3de2_4028_92c1_8cc93832dd76 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ,
