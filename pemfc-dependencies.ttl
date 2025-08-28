@@ -5,4 +5,5 @@
     owl:versionIRI <https://w3id.org/emmo/domain/pemfc/0.4.1/depencencies> ;
     owl:imports
         <https://w3id.org/emmo/domain/sofc/0.6.2/soec> ,
-        <https://w3id.org/emmo/domain/chemical-substance/0.12.2-beta/source> .
+        #<https://w3id.org/emmo/domain/chemical-substance/0.12.2-beta/source> .
+        <https://w3id.org/emmo/domain/chemical-substance/chemical-substance> .
